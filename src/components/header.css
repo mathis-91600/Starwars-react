@@ -1,0 +1,27 @@
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    background-color: black;
+    height: 70px;
+    border-bottom: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+header nav a{
+    text-decoration: none;
+    color: gold;
+    font-family: "starwars";
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+header nav a:first-child{
+    margin-left: 20px;
+}
+
+header nav a:hover{
+    color: white;
+}

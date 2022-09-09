@@ -1,0 +1,52 @@
+.single-moovie{
+    display: flex;
+}
+
+.single-moovie .left-side-moovie{
+    width: 50%;
+}
+
+.single-moovie .left-side-moovie img{
+    width: 952px;
+    height: 100%;
+}
+
+.single-moovie .right-side-moovie{
+    width: 50%;
+    background-color: black;
+}
+
+.single-moovie .right-side-moovie h3{
+    font-family: "starwars";
+    color: gold;
+    font-size: 45px;
+    letter-spacing: 0.7rem;
+}
+
+.single-moovie .right-side-moovie p{
+    text-align: left;
+    color: white;
+    line-height: 30px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.single-moovie .right-side-moovie a{
+    color: gold;
+    font-family: "starwars";
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.single-moovie:nth-child(2) .left-side-moovie{
+    order: 1;
+}
+
+.single-moovie:nth-child(4) .left-side-moovie{
+    order: 1;
+}
+
+.single-moovie:nth-child(6) .left-side-moovie{
+    order: 1;
+}

@@ -1,0 +1,22 @@
+.main-star-wars{
+    background-image: url('../images/body_background.jpg');
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+h2{
+    margin: 0;
+    font-family: "starwars";
+    color: gold;
+    font-size: 90px;
+    letter-spacing: 0.7rem;
+}
+
+.moovie-star-wars{
+    position: absolute;
+    padding-top: 1076px;
+}
