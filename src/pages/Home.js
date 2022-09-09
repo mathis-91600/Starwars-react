@@ -36,7 +36,6 @@ const Home = () => {
         <div className='moovie-star-wars'>
         {movieInfos
             ? movieInfos.map((movieInfo, i) => {
-                console.log(movieInfo.episode_id);
                 return(
                     <CardMoovie
                         url={moviePhoto[i][i]}
@@ -44,7 +43,7 @@ const Home = () => {
                         resume={movieInfo.opening_crawl}
                         date={movieInfo.release_date}
                         director={movieInfo.director}
-                        link={movieInfo.episode_id}
+                        id={movieInfo.episode_id}
                         key={i}
                     />
                 )
